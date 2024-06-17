@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <BUtton onclick="x()"  class="nx" >click now!</BUtton>
+   <div class="x"></div>
+   <div class="man ">
+    <span>&times;</span>
+    <div class="box">
+      <label for="username">Username</label>
+      <input type="text" name="" id="" placeholder="enter your username">
+    </div>
+    <div class="box">
+      <label for="username">passwords</label>
+      <input type="text" name="" id="" placeholder="passwords">
+       <button class="xs">login now </button>
+    </div>
+   </div>
+   <script>
+    function x(){
+       document.querySelector(".x").classList.add("mx")
+       document.querySelector(".man").classList.add("mxx")
+    }
+    function xx(){
+      document.querySelector(".x").classList.remove("mx")
+      document.querySelector(".man").classList.remove("mxx")
+    }
+    let span =document.querySelector("span");
+    span.addEventListener("click",xx)
+   </script>
+</body>
+</html>
